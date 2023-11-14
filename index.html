@@ -12,9 +12,17 @@
 
   <title>AHMahi | Portfolio</title>
 
-  <meta property="og:title" content="Homepage | Atom Template" />
+  <meta property="og:title" content="AHMahi | Portfolio" />
 
   <meta property="og:locale" content="en_US" />
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  </style>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  </style>
 
   <link
     rel="canonical"
@@ -30,18 +38,6 @@
     name="description"
     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   />
-
-  <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
-
-  <meta name="theme-color" content="#5540af" />
-
-  <meta property="og:site_name" content="Atom Template" />
-
-  <meta property="og:image" content="//assets/img/social.jpg" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <meta name="twitter:site" content="@tailwindmade" />
 
   <link
     crossorigin="crossorigin"
@@ -104,9 +100,9 @@
   <div class="w-full z-50 top-0 py-3 sm:py-5  absolute
   ">
   <div class="container flex items-center justify-between">
-    <div>
+    <div style="font-family: 'Permanent Marker', cursive;">
       <a href="/">
-        <img src="/assets/img/logo.svg" class="w-24 lg:w-48" alt="logo image" />
+        <p class="w-24 lg:w-48 font-bold text-4xl text-white"> AHMahi </p>
       </a>
     </div>
     <div class="hidden lg:block">
@@ -116,7 +112,8 @@
           
           <span
             @click="triggerNavItem('#about')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >About</span
           >
           
@@ -129,7 +126,8 @@
           
           <span
             @click="triggerNavItem('#services')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >Services</span
           >
           
@@ -142,7 +140,8 @@
           
           <span
             @click="triggerNavItem('#portfolio')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >Portfolio</span
           >
           
@@ -155,7 +154,8 @@
           
           <span
             @click="triggerNavItem('#clients')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >Clients</span
           >
           
@@ -168,7 +168,8 @@
           
           <span
             @click="triggerNavItem('#work')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >Work</span
           >
           
@@ -181,7 +182,8 @@
           
           <span
             @click="triggerNavItem('#statistics')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >Statistics</span
           >
           
@@ -194,7 +196,8 @@
           
           <span
             @click="triggerNavItem('#blog')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >Blog</span
           >
           
@@ -207,7 +210,8 @@
           
           <span
             @click="triggerNavItem('#contact')"
-            class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+            class="cursor-pointer uppercase text-white"
+            style= "font-family: 'Poppins'"
             >Contact</span
           >
           
@@ -328,18 +332,18 @@
 
 
       <div><div
-  class="relative bg-cover bg-center bg-no-repeat py-8"
+  class=" hero relative bg-cover bg-center bg-no-repeat py-8"
   style="background-image: url(/assets/img/bg-hero.jpg)"
 >
   <div
-    class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"
+    class="absolute inset-0 z-20 bg-gradient-to-b from-hero-gradient-from bg-cover bg-center bg-no-repeat"
   ></div>
 
   <div
     class="container relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48"
   >
     <div class="flex flex-col items-center justify-center lg:flex-row">
-      <div class="rounded-full border-8 border-primary shadow-xl">
+      <div class="rounded-full border-2 border-white shadow-xl">
         <img
           src="/assets/img/meportfolio.jpg"
           class="h-48 rounded-full sm:h-56"
@@ -349,6 +353,7 @@
       <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
         <h1
           class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl"
+          style= "font-family: 'Poppins'"
         >
           Hello I'm Abdul Hamid Mahi!
         </h1>
@@ -358,7 +363,7 @@
           <div
             class="flex items-center justify-center pl-0 sm:justify-start md:pl-1"
           >
-            <p class="font-body text-lg uppercase text-white">Let's connect</p>
+            <p class="font-body text-lg uppercase text-white" style= "font-family: 'Poppins'" >Let's connect</p>
             <div class="hidden sm:block">
               <i class="bx bx-chevron-right text-3xl text-yellow"></i>
             </div>
@@ -373,22 +378,17 @@
             </a>
             <a href="/" class="pl-4">
               <i
-                class="bx bxl-twitter text-2xl text-white hover:text-yellow"
-              ></i>
-            </a>
-            <a href="/" class="pl-4">
-              <i
-                class="bx bxl-dribbble text-2xl text-white hover:text-yellow"
-              ></i>
-            </a>
-            <a href="/" class="pl-4">
-              <i
                 class="bx bxl-linkedin text-2xl text-white hover:text-yellow"
               ></i>
             </a>
             <a href="/" class="pl-4">
               <i
-                class="bx bxl-instagram text-2xl text-white hover:text-yellow"
+                class="bx bxl-youtube text-2xl text-white hover:text-yellow"
+              ></i>
+            </a>
+            <a href="/" class="pl-4">
+              <i
+                class="bx bxl-dribbble text-2xl text-white hover:text-yellow"
               ></i>
             </a>
           </div>
